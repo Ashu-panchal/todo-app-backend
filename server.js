@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 app.use(express.json())
 app.use(cors({
-  origin: "https://todo-app-frontend-4rxw.onrender.com"
+  origin: "https://todo-app-backend-x8jo.onrender.com"
 }));
 
 let db;
